@@ -1,0 +1,41 @@
+/*universal css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*global css*/
+body{
+    background-color: #212737;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.4;
+    color: white;
+    font-weight: normal;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+li{
+    margin-left: 20px;
+    border-bottom: 1px #545454 solid;
+    padding:15px;
+}
+h1{
+    text-align: center;
+
+}
+.grey-italic{
+    color: gray;
+    text-align: center;
+    font-style: italic;
+}
+.teal-text{
+    color: teal;
+   
+}
+footer{
+    text-align: center;
+    padding: 12px;
+    color: teal;
+}
